@@ -10,7 +10,10 @@
     "check": "eslint . && tsc -b",
     "prettier:write": "prettier --write .",
     "prettier:check": "prettier --check .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest ",
+    "test:run": "vitest run",
+    "test:watch": "vitest watch"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -31,6 +34,7 @@
     "prettier": "^3.9.10",
     "typescript": "~6.0.0",
     "typescript-eslint": "^8.72.0",
-    "vite": "^8.3.5"
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
   }
 }

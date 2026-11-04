@@ -6,8 +6,16 @@ interface Presentation {
     links: { github: string; linkedin: string; cv: string } // URLs to the presentation
 }
 
-type SkillCategory = 'Frontend' | 'Backend' | 'Database' | 'DevOps' | 'Design' | 'Other' | 'Tools'
-
+export const SKILL_CATEGORIES = [
+    'Frontend',
+    'Backend',
+    'Database',
+    'DevOps',
+    'Design',
+    'Other',
+    'Tools',
+] as const
+type SkillCategory = (typeof SKILL_CATEGORIES)[number]
 interface Skill {
     name: string
     category: SkillCategory
