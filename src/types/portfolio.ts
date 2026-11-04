@@ -14,6 +14,7 @@ type SkillCategory =
     | 'Design'
     | 'Other'
     | 'Tools'
+
 interface Skill {
     name: string
     category: SkillCategory

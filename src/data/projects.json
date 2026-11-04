@@ -1,0 +1,55 @@
+[
+    {
+        "id": "e-commerce",
+        "title": "E-commerce",
+        "description": "E-commerce est un projet de site de vente en ligne factice réalisé avec du Python (Django) en backend et du React en frontend. Le site a été créé pour me familiariser avec le langage Python et le framework Django.",
+        "detailedDescription": "E-commerce est un projet de site de vente en ligne factice réalisé avec du Python (Django) en backend et du React en frontend. Le site permet de créer et connecter des utilisateurs, de chercher et ajouter des produits dans un panier et de finaliser une commande grâce à Stripe sous environnement de développement. Après l'achat, les utilisateurs peuvent consulter leur historique de commandes.",
+        "image": "/images/projects/mockup_Ecommerce.png",
+        "links": {
+            "website": "https://amarzitmathias-ecommerce.fr/",
+            "github": "https://github.com/AmarzitMathias/e-commerce_Python"
+        },
+        "skills": [
+            "React",
+            "Python (Django)",
+            "Tailwind CSS",
+            "ViteJS",
+            "Insomnia",
+            "Axios",
+            "Stripe"
+        ]
+    },
+    {
+        "id": "zombieland",
+        "title": "Zombieland",
+        "description": "Zombieland est un projet réalisé durant la fin de formation. Ce projet a été réalisé en 1 mois par un groupe de 4 personnes. Le site correspond à un site de présentation d'un parc d'attraction sous le thème de l'horreur.",
+        "detailedDescription": "Ce site a été réalisé lors du projet de fin de formation DWWM. Le site est basé sur le thème d'un parc d'attraction horrifique. Il est composé d'une page activités qui permet d'afficher les activités du parc d'attraction, d'une page réservation présente uniquement lorsque l'utilisateur est connecté et d'une page permettant de consulter et supprimer ses tickets ainsi que de modifier les informations du compte.",
+        "image": "/images/projects/Mockup_Zombieland.png",
+        "links": {
+            "website": "http://zombielandworld.surge.sh",
+            "github": "https://github.com/AmarzitMathias/Zombieland"
+        },
+        "skills": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "ViteJS",
+            "NodeJS",
+            "ExpressJS",
+            "PostgreSQL",
+            "Sequelize"
+        ]
+    },
+    {
+        "id": "ocoffee",
+        "title": "O'coffee",
+        "description": "O'coffee est un projet de site vitrine réalisé de façon autonome pendant une durée d'une semaine. Il contient plusieurs pages et les produits sont affichés de manière dynamique.",
+        "detailedDescription": "Ce projet a été réalisé dans le cadre de ma formation, lors du premier développement d'un site de manière autonome. Ce site contient 4 pages : une page d'accueil, un catalogue, une page de détail d'un produit (page dynamique) et une page avec un formulaire d'ajout de café. Le site contient une navbar et un footer contenant une carte fournie par Leaflet. Les produits du catalogue sont affichés dynamiquement en fonction des produits présents dans la base de données, codée en PostgreSQL.",
+        "image": "/images/projects/mockup_Ocoffee_rognage.png",
+        "links": {
+            "website": "http://194.164.76.149:3001/",
+            "github": null
+        },
+        "skills": ["JavaScript", "NodeJS", "ExpressJS", "PostgreSQL"]
+    }
+]
