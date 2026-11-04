@@ -8,10 +8,9 @@ export const projects = Projects as Project[]
 export const presentation = PresentationData as Presentation
 
 function getProjectById(id: string | undefined): Project | undefined {
+    // Find the project with the matching id
     const project = projects.find((project) => project.id === id)
-    if (!project) {
-        return project
-    }
+    // Return the project if found, otherwise return undefined
     return project
 }
 
