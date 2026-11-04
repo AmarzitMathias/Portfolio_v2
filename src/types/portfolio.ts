@@ -6,14 +6,7 @@ interface Presentation {
     links: { github: string; linkedin: string; cv: string } // URLs to the presentation
 }
 
-type SkillCategory =
-    | 'Frontend'
-    | 'Backend'
-    | 'Database'
-    | 'DevOps'
-    | 'Design'
-    | 'Other'
-    | 'Tools'
+type SkillCategory = 'Frontend' | 'Backend' | 'Database' | 'DevOps' | 'Design' | 'Other' | 'Tools'
 
 interface Skill {
     name: string
