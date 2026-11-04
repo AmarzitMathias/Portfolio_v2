@@ -1,34 +1,24 @@
-import { presentation, skills, projects } from './data/typesJson'
+import { Route, Routes } from 'react-router'
+//import Classic
+import AccueilClassic from './themes/classic/pages/accueil'
+import Project from './themes/classic/pages/project'
+import Classic404 from './themes/classic/pages/404'
+//import Persona
+import AccueilPersona from './themes/persona/pages/accueil'
+import Persona404 from './themes/persona/pages/404'
 
 function App() {
     return (
-        <>
-            <h1>Portfolio-v2</h1>
-            Presentation:
-            <ul>
-                {Object.entries(presentation).map(([key, value]) => (
-                    <li key={key}>
-                        {key}: {JSON.stringify(value)}
-                    </li>
-                ))}
-            </ul>
-            Skills:
-            <ul>
-                {skills.map((skill) => (
-                    <li key={skill.name}>
-                        {skill.name} - {skill.category}
-                    </li>
-                ))}
-            </ul>
-            Projects:
-            <ul>
-                {projects.map((project) => (
-                    <li key={project.id}>
-                        {project.title} - {project.description}
-                    </li>
-                ))}
-            </ul>
-        </>
+        <Routes>
+            {/* // Routes classics */}
+            <Route path="/" element={<AccueilClassic />} />
+            <Route path="/project/:id" element={<Project />} />
+            {/* // Routes persona */}
+            <Route path="/persona" element={<AccueilPersona />} />
+            {/* 404 Not Found */}
+            <Route path="/persona/*" element={<Persona404 />} />
+            <Route path="*" element={<Classic404 />} />
+        </Routes>
     )
 }
 

@@ -6,3 +6,13 @@ import type { Skill, Project, Presentation } from '../types/portfolio'
 export const skills = Skills as Skill[]
 export const projects = Projects as Project[]
 export const presentation = PresentationData as Presentation
+
+function getProjectById(id: string): Project | undefined {
+    const project = projects.find((project) => project.id === id)
+    if (!project) {
+        return undefined
+    }
+    return project
+}
+
+export { getProjectById }
