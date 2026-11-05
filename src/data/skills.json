@@ -1,0 +1,77 @@
+[
+    {
+        "name": "React",
+        "category": "Frontend",
+        "icon": "/images/skills/react-logo.png"
+    },
+    {
+        "name": "JavaScript",
+        "category": "Frontend",
+        "icon": "/images/skills/JavaScript-logo.png"
+    },
+    {
+        "name": "NodeJS",
+        "category": "Backend",
+        "icon": "/images/skills/node-logo.png"
+    },
+    {
+        "name": "ExpressJS",
+        "category": "Backend",
+        "icon": "/images/skills/Expressjs-logo.png"
+    },
+    {
+        "name": "Sequelize",
+        "category": "Database",
+        "icon": "/images/skills/sequelize-logo.png"
+    },
+    {
+        "name": "Python (Django)",
+        "category": "Backend",
+        "icon": "/images/skills/Django-logo.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "category": "Database",
+        "icon": "/images/skills/Postgresql-logo.png"
+    },
+    {
+        "name": "Insomnia",
+        "category": "Tools",
+        "icon": "/images/skills/insomnia-logo.png"
+    },
+    {
+        "name": "API Rest",
+        "category": "Other",
+        "icon": "/images/skills/apiRest-logo.png"
+    },
+    {
+        "name": "Visual Studio Code",
+        "category": "Tools",
+        "icon": "/images/skills/Visual_Studio_Code_logo.png"
+    },
+    {
+        "name": "TypeScript",
+        "category": "Frontend",
+        "icon": "/images/skills/TS-logo.webp"
+    },
+    {
+        "name": "Tailwind CSS",
+        "category": "Frontend",
+        "icon": "/images/skills/tailwind-logo.png"
+    },
+    {
+        "name": "ViteJS",
+        "category": "Tools",
+        "icon": "/images/skills/vite-logo.png"
+    },
+    {
+        "name": "Axios",
+        "category": "Frontend",
+        "icon": "/images/skills/axios-logo.png"
+    },
+    {
+        "name": "Stripe",
+        "category": "Backend",
+        "icon": "/images/skills/stripe-logo.png"
+    }
+]

@@ -1,0 +1,4 @@
+# text=auto, git sélectionne automatiquement les fichiers texte et binaire
+# eol=lf convertit les fins de ligne en LF (Unix) pour tous les fichiers texte, 
+# même sur Windows pour éviter des erreurs avec Prettier.
+* text=auto eol=lf
